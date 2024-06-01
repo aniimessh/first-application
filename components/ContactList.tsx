@@ -68,11 +68,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 10,
-    marginVertical: 5
+    marginVertical: 5,
+    backgroundColor: "#123456",
+    padding: 8,
+    borderRadius: 8,
   },
   userName: {
     fontSize: 18,
-    color: '#fff',
+    color: '#000',
     fontWeight: 'bold',
   },
   userStatus: {
